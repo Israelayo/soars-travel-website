@@ -1,0 +1,255 @@
+/*CSS RESET START/*
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+/*CSS RESET END*/
+
+.package-container{
+  width: 90%;
+  height: 630px;
+  /* background-color: #6B7280; */
+}
+
+.package-text{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 50px;
+  color: #000000;
+  position: relative;
+} 
+
+ /* .package-text::after{
+    content: "";
+    height: 5px;
+    background-color: #00CEC8;
+    width: 200px;
+    position: absolute;
+    left: 42%;
+    bottom: -4px;
+    border-radius: 10px;
+} */
+
+.our-packages{
+    display: flex;
+    /* background-color: bisque; */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+@media(max-width:1250px){
+  .our-packages{
+    flex-wrap: wrap;
+  }
+
+  .package-container{
+    margin-bottom: 70px;
+  }
+}
+
+.package-item{
+    width: 280px;
+    /* background-color: aquamarine; */
+    height: 420px;
+    border: 1px solid #DDDDDD;
+    border-radius: 15px;
+}
+
+.package-item img{
+    width: 280px;
+    height: 180px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.item-overlay{
+    /* background-color: burlywood; */
+    width: 280px;
+    height: 200px;
+    margin-top: 190px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    margin-right: 5px;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #00CEC8;
+}
+
+.pricing-container h3{
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+}
+
+.uae{
+    margin-left: 25px;
+    /* text-align: center; */
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #A19D9D;
+
+}
+
+.pricing-container img{
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin-left: 3px;
+}
+
+.luxury-container{
+    display: flex;
+    width: auto;
+    height: auto;
+    /* background-color: chocolate; */
+    margin-top: 10px;
+}
+
+.luxury-item{
+    width: 90px;
+    height: 30px;
+    background-color: #D9F8F7;
+    border-radius: 30px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.luxury-item p{
+    /* text-align: center; */
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #6B7280;
+}
+
+.luxury-p{
+    margin-left: 3px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #A19D9D;
+}
+
+button {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 11px !important;
+    background: #00CEC8;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background: #1b9e9a;
+    text-decoration: none;
+  }
+
+  .detail-btn{
+      border-radius: 30px;
+      border: #00CEC8;
+      font-family: "Montserrat", sans-serif;
+      color: #ffffff;
+      font-size: 15px;
+      background: #00CEC8;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      cursor: pointer;
+    
+    }
+    
+    .detail-btn:hover {
+      background: #5abfbc;
+      text-decoration: none;
+    }
+  

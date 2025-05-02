@@ -1,0 +1,133 @@
+/*CSS RESET START/*
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+/*CSS RESET END*/
+
+.Beachitems-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1100px){
+    .Beachitems-container{
+        margin: 50px;
+    }
+}
+
+@media(max-width: 910px){
+    .Beachitems-container{
+        margin: 100px;
+    }
+}
+
+
+
+.beach-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    /* margin-top: 20px; */
+    /* background-color: aliceblue; */
+  }
+  
+  .beach-item{
+    height: auto;
+    width: 300px;
+    /* background-color: beige; */
+  }
+  
+  .worldtour-paragraph{
+    margin-left: 65px;
+    margin-top: 15px;
+  }
+  
+  .worldtour-paragraph p{
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #A19D9D;
+  }
+  
+  .worldtour-paragraph h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  .beach-item img{
+    width: 50px;
+    height: 50px;
+    
+  }

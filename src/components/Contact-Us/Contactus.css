@@ -1,0 +1,247 @@
+/*CSS RESET START/*
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+/*CSS RESET END*/
+
+.contactus-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  /* background-color: bisque; */
+  padding-top: 100px;
+  position: relative;
+  margin-bottom: 50px;
+  
+}
+
+.getintouch {
+  background: linear-gradient(to bottom, #00cec8, #83FFFB);
+  padding-left: 30px;
+  padding-top: 20px;
+  width: 30%;
+  color: white;
+  border-radius: 30px;
+  position: absolute;
+  left: 0%;
+  height: 100%;
+  height: 750px; 
+}
+
+.getintouch h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #6B7280;
+  margin-bottom: 10px;
+}
+
+.getintouch p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6B7280;
+}
+
+h3{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #6B7280;
+}
+
+.paragraph{
+  margin-bottom: 20px;
+}
+
+.social-media-icons{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contactform-container label{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.checkboxfield label{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20.5px;
+    color: #000000;
+}
+
+.contactform-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  /* background-color: burlywood; */
+  height: 750px;
+  padding-top: 20px;
+
+}
+
+.name-fields {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 30px;
+}
+
+.firstname{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.lastname{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.emailfield{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.phonefield{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.messagefield{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkboxfield{
+  margin-top: 30px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #000000;
+  outline: none;
+  border-radius: 16px;
+  font-family: inherit;
+  background-color: #FFFFFF;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+
+.buttonfield {
+  padding: 14px;
+  background-color: #00cec8;
+  color: white;
+  border: none;
+  width: 90%;
+ margin-top: 30px;
+  border-radius: 0%;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+button:hover {
+  background-color: #5abfbc;
+}
+
+/* @media (max-width: 768px) {
+  .contactus-container {
+    flex-direction: column;
+  }
+
+  .getintouch,
+  .contact-form {
+    width: 100%;
+  }
+
+  .name-fields {
+    flex-direction: column;
+  }
+} */
+

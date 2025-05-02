@@ -1,0 +1,158 @@
+/*CSS RESET START/*
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+/*CSS RESET END*/
+
+.package-hero{
+  width: 100%;
+  height: 650px;
+  /* background-color: aquamarine; */
+  margin-bottom: 20px;
+  position: relative;
+  
+}
+
+.packagehero-img{
+  width: 90%;
+  height: 500px;
+  margin-top: 50px;
+  border-radius: 30px;
+  filter: brightness(80%);
+}
+
+.packagetext-overlay{
+  width: 50%;
+  height: auto;
+  /* background-color: azure; */
+  position: absolute;
+}
+
+.packagetext-overlay h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.packagetext-overlay p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.packagesearch-div{
+  position: relative;
+  width: 90%;
+  /* background-color: bisque; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.packagesearch-div input{
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  width: 80%;
+  padding: 10px 40px 10px 15px;
+  
+}
+
+.packagesearch-icon{
+  position: absolute;
+  cursor: pointer;
+  right: 125px;
+  top: 35%;
+}
+
+.packagesearch-div input::placeholder{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #A19D9D;
+}
+
+.packagesearch-btn{
+  /* padding: 10px 20px; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 25px;
+  margin-bottom: 7px;
+  
+}
+

@@ -1,0 +1,143 @@
+/*CSS RESET START/*
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+/*CSS RESET END*/
+
+.destgrid-section{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.destinations-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 550px);
+    grid-template-rows: 400px;
+    gap: 30px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 1150px){
+    .destinations-grid{
+        grid-template-columns: 1fr;
+    }
+    .destgrid-items{
+        margin: auto;
+    }
+    .destgrid-section{
+        margin-bottom: 0;
+    }
+}
+
+.destgrid-items{
+    /* background-color: burlywood; */
+    width: 550px;
+    height: 370px;
+    overflow: hidden;
+
+}
+
+.destgrid-items img{
+    width: 550px;
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.short-texts{
+    margin-top: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.long-text{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.short-texts p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.right-text p{
+    color: #00CEC8;
+    cursor: pointer;
+}
