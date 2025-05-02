@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../../components/Hero/hero";
+import Hero from "../../components/Hero/Hero";
 import Destination from "../../components/Destination/Destination";
 import Beaches from "../../components/Best-beaches/Beaches";
 import Beachitems from "../../components/Enjoys/Enjoy";
