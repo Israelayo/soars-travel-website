@@ -1,6 +1,6 @@
 import DatePicker from "react-datepicker"
 import 'react-datepicker/dist/react-datepicker.css'
-import "./DatePicker.css"
+import "./Datepicker.css"
 import { useState } from "react"
 
 function MyDatepicker(){
