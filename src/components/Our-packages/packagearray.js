@@ -1,8 +1,8 @@
 
-import package1 from "./package1.png";
-import Santorini from "./Santorini.png"
-import Venice from "./Venice.png"
-import Capetown from "./Capetown.png"
+import package1 from "../../assets/package1.png";
+import Santorini from "../../assets/Santorini.png"
+import Venice from "../../assets/Venice.png"
+import Capetown from "../../assets/Capetown.png"
 
 let packageItems = [
     {

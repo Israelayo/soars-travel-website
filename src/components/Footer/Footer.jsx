@@ -1,5 +1,5 @@
 import "./Footer.css"
-import footer from "./footer.png"
+import footer from "../../assets/footer.png"
 
 
 

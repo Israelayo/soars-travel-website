@@ -1,12 +1,12 @@
 import "./Destination.css"
-import Dubai from "./Dubai.png"
-import NewYork from "./NewYork.png"
-import Italy from "./Italy.png"
-import Egypt from "./Egypt.png"
-import UK from "./UK.png"
-import Australia from "./Australia.png"
-import Brazil from "./Brazil.png"
-import Packages from "./Packages.png"
+import Dubai from "../../assets/Dubai.png"
+import NewYork from "../../assets/NewYork.png"
+import Italy from "../../assets/Italy.png"
+import Egypt from "../../assets/Egypt.png"
+import UK from "../../assets/UK.png"
+import Australia from "../../assets/Australia.png"
+import Brazil from "../../assets/Brazil.png"
+import Packages from "../../assets/Packages.png"
 
 function Destination(){
     return <section>

@@ -1,6 +1,6 @@
 import "./Hero.css"
-import image from "./image.png"
-import Vector from "./Vector.png"
+import image from "../../assets/image.png"
+import Vector from "../../assets/Vector.png"
 import MyDatepicker from "../Datepicker/Datepicker"
 import NumberDropdown from "../Dropdown/Dropdown"
 

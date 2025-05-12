@@ -1,6 +1,6 @@
 import "./Package.css";
 import packageItems from "./packagearray";
-import location from "./location-marker.png";
+import location from "../../assets/location-marker.png";
 
 function Package() {
   return (

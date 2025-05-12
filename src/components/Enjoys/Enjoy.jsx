@@ -1,7 +1,7 @@
 import "./Enjoy.css";
-import Worldtour from "./worldtour.png"
-import Train from "./Train.png"
-import Cruise from "./Cruise.png"
+import Worldtour from "../../assets/worldtour.png"
+import Train from "../../assets/Train.png"
+import Cruise from "../../assets/Cruise.png"
 
 
 function Beachitems(){

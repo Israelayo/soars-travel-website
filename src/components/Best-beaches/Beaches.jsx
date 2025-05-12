@@ -1,5 +1,5 @@
 import "./Beaches.css";
-import Beach from "./Beach.png"
+import Beach from "../../assets/Beach.png"
 
 
 function Beaches() {
